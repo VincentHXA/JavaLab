@@ -7,7 +7,7 @@ public class SubjectTwo extends AbstractSubject{
 
     @Override
     public void action() {
-        logger.info("action of [{}]", this.getClass().getName());
+        logger.info("onAction of [{}]", this.getClass().getName());
         performStrategy();
     }
 }

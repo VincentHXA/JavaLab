@@ -12,6 +12,6 @@ public class StrategyOne implements Strategy{
     }
 
     public void perform() {
-        logger.info("perform action of strategy: [{}]", this.getClass().getName());
+        logger.info("perform onAction of strategy: [{}]", this.getClass().getName());
     }
 }

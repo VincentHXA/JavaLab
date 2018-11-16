@@ -46,12 +46,12 @@ public class MySubject implements Observable{
     }
 
     public void performActionInPushMode() {
-        logger.info("perform action of [{}]", this.getClass().getName());
+        logger.info("perform onAction of [{}]", this.getClass().getName());
         allNotify("hello, i am your observable subject");
     }
 
     public void performActionInPullMode() {
-        logger.info("perform action of [{}]", this.getClass().getName());
+        logger.info("perform onAction of [{}]", this.getClass().getName());
         allNotify();
     }
 

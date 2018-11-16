@@ -1,0 +1,18 @@
+package patterns.command;
+
+public class Invoker {
+
+    private Command command;
+
+    public void setCommand(Command command) {
+        this.command = command;
+    }
+
+    public void commandOn() {
+        this.command.execute();
+    }
+
+    public void undoCommand() {
+        this.command.undo();
+    }
+}
