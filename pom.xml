@@ -11,6 +11,8 @@
 
     <modules>
         <module>DesignPattern</module>
+        <module>JVM</module>
+        <module>Basic</module>
     </modules>
 
     <dependencies>
