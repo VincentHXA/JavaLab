@@ -2,8 +2,8 @@ package generics;
 
 public class Test0 {
 
-    public static <E> void printArray(E[] inputArray) {
-        for(E element: inputArray) {
+    public static <T> void printArray(T[] inputArray) {
+        for(T element: inputArray) {
             System.out.printf("%s", element);
         }
     }
