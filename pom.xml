@@ -13,6 +13,7 @@
         <module>DesignPattern</module>
         <module>JVM</module>
         <module>Basic</module>
+        <module>Algorithm</module>
     </modules>
 
     <dependencies>
