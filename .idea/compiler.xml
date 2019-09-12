@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Basic" />
+        <module name="Algorithm" />
         <module name="DesignPattern" />
         <module name="JVM" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Basic" target="1.5" />
-      <module name="DesignPattern" target="1.5" />
-      <module name="JavaLab" target="1.5" />
-      <module name="JVM" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="Algorithm" target="8" />
+      <module name="Basic" target="8" />
+      <module name="DesignPattern" target="8" />
+      <module name="JavaLab" target="8" />
+      <module name="JVM" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
